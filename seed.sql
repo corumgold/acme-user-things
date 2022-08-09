@@ -3,7 +3,7 @@ DROP TABLE IF EXISTS things;
 
 DROP TABLE IF EXISTS users;
 
-CREATE TABLE user(
+CREATE TABLE users(
     id SERIAL PRIMARY KEY,
     name VARCHAR(20)
 );
